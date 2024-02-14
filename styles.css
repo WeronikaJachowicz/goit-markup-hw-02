@@ -8,7 +8,7 @@ body{
 .page-title {
     font-weight: bold;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.071;
 }
 .section-title {
     font-weight: bold;
@@ -32,24 +32,21 @@ h3 {
     cursor: pointer;
 }
 .page-nav .link-studio,
-.page-nav .link {
+.page-nav .link,
+.address {
     text-decoration: none;
     color:#434455;
 }
 .page-nav .link-studio:hover,
 .page-nav .link-studio:focus,
 .page-nav .link:hover,
-.page-nav .link:focus{
+.page-nav .link:focus,
+.address:hover,
+.address:focus {
     color:#404bbf;
 }
 .page-nav .link-studio:active {
     text-decoration: underline; 
     text-decoration-color: #404bbf;
 }
-.address .link {
-    text-decoration: none;
-    color:#434455;
-}
-.address .link {
-    color:#404bbf;
-}
+
